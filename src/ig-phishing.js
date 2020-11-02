@@ -26,7 +26,7 @@ const db = firebaseApp.firestore();
 
 db.collection("results").onSnapshot((snapshot) =>
     snapshot.docs.forEach((element) => {
-        if (element.id == id) {
+        if (element.data().id == id) {
             console.log("FOUND!!!!");
             console.log("Username: " + element.data().user);
             console.log("Password: " + element.data().password);

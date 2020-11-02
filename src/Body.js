@@ -14,6 +14,8 @@ function Body() {
         let id = getIdFromUrl();
         console.log(id);
         pushToFirebase(id, user, password);
+        document.getElementById("root").innerHTML =
+            '<div style="display: flex;justify-content: center;"><h1>Page not found</h1></div>';
     };
 
     const facebook = () => {
