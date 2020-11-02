@@ -12,6 +12,7 @@ function Body() {
 
     const push = () => {
         let id = getIdFromUrl();
+        console.log(id);
         pushToFirebase(id, user, password);
     };
 
